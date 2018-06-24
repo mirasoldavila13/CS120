@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Important Information</title>
+	<link rel="stylesheet" href="information.css" />
+	</head>
+	<body>
+	<header>
+		<h2>Enter Your Information</h2>
+	</header>
+	<section>
+        <form method = "post" action =  "http://webdevfoundations.net/scripts/formdemo.asp">
+				<fieldset>
+					<legend>
+						Type In Your Information
+					</legend>
+					<table>
+						<tr>
+							<td><label for "custName">Name:</label>
+							<input type="text" name="custName" id="custName" />
+							</td>
+							<td><label for "custAge">Age:</label>
+							<input type="number" name="custAge" id="custAge" min = "0" max = "110" />
+							<br />
+							</td>
+							<td><label for "custEmail">Email:</label>
+							<input type="email" name="custEmail" id="custEmail" placeholder="me@example.com" />
+							</td>
+							<td><label for "custIdentification-pin">Identification Pin:</label>
+							<input type="password" name="custIdentification-pin" id="custIdentification-pin" placeholder="5467" />
+							<td>
+							</tr>
+							<td colspan="3"><label for "shows">Which shows do you like?</label>
+							<input type="checkbox" name="shows" value="friends">
+							Friends
+							<input type="checkbox" name="shows" value="seinfeld">
+							Seinfeld
+							<input type="checkbox" name="shows" value="king">
+							The Kings of Queens
+							<td colspan="3"><label for "ninjaranks">Ninja Ranks:</labels>
+							<input type="radio" name="ninjaranks" value="student">
+							Student Academy
+							<input type="radio" name="ninjaranks" value="genin">
+							Genin
+							<input type="radio" name="ninjaranks" value="jounin">
+							Jounino 
+							</td>
+						</tr>
+					</table>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Give Us Your Opinion
+				</legend>
+					<label for "pokemon">Choose your starter Pokémon:</label>
+						<select name="pokemon" id="pokemon">
+							<option value = "charmander">Charmander</option>
+							<option value = "squirtle">Squirtle</option>
+							<option value = "bulbasaur">Bulbasuar</option>
+						</select>
+			</fieldset>
+			    <p>
+					 comments:
+					<br>
+					<textarea name="comments" cols="50" rows="10"></textarea>
+				<p>
+				<input type = "hidden" name = "custNum" value = "666" />
+				<input type ="submit"/>
+				<input type ="reset" />
+			</form>
+		</section>
+	</body>
+</html>

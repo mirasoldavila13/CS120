@@ -1,0 +1,18 @@
+Lab 9
+
+1.Suppose your html document is at http://www.mysite.com/sales/motorcyles/index.html and you want to use an external stylesheet that is at http://www.mysite.com/style/style.css. Write the stylesheet link using a *relative* path?
+The path for the style sheet would be <link rel="stylesheet" href="style.css" />
+	
+2.Suppose your internal stylesheet sets all text to color: #0000FF, but an external stylesheet gives all paragraphs color: #FF0000. What color will the text in the paragraphs be, and why?
+The external sheet will win over the internal stylesheet. The color of the paragraphs would be an orange color.
+
+3.Why is the the title element inside head, not body?
+The title element is inside the head because it's an attribute. Where the head element contains title. 
+
+4.Why is it better to use CSS for styling than to use html attributes like bgcolor?
+It's better to use CSS for styling rather than using html attributes. Using html attributes is another way of physical markup. It's better to use CSS for styling then using html it's irrevelant. 
+	
+5.What does the action attribute of a form element do?
+There's an absolute link where it directs you to a website and there's a relative url where it contains the directory the file is in.
+6.How does noscript work?
+ Nonscript is used when the browser doesn't recognize java and the browswer would ignore it and skip to the next line. Nonscript works as a fall back message.

@@ -1,0 +1,18 @@
+body {
+	background-color: #48036F;
+	}
+header {
+	background-color: #BB63D4;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	}
+form {
+	background-color: #BB63D4;
+	margin-right: auto;
+	margin-left: auto;
+	}
+legend {
+		font-size: 120%;
+	 }
